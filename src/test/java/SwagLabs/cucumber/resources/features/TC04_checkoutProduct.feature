@@ -4,7 +4,7 @@ Feature: TC004 - Checkout Produk
   User melakukan checkout pada barang yang sudah dipilih
 
   @TDD    @Positive
-  Scenario Outline: Berhasil menambahkan produk ke dalam keranjang
+  Scenario Outline: Berhasil melakukan checkout barang
     Given Halaman Login SwagLabs
     When Input <username> as username
     And Input <password> as password
